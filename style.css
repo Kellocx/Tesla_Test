@@ -5,13 +5,63 @@
 
 body {
     overflow-x: hidden;
+    height: 100%;
     width: 100%;
+    margin: 0;
     background-color: #fff;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
-    
+   
 }
+
 .logo{
     height: 80px;
     width: auto;
+}
+
+
+
+
+.nav-link {
+
+    color: black;
+    font-weight: 500;
+
+}
+
+.carousel-caption {
+
+    top: 0;
+    bottom: 0;
+    transform: translateY(-25%);
+
+}
+
+.btn-primary {
+
+    background-color: #3E6AE1;
+
+}
+
+.btn-primary:hover {
+
+    background-color: #365BBA;
+}
+
+
+.carousel-caption h1 {
+
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+}
+
+.carousel-caption .btn {
+
+    font-weight: 500;
+}
+
+.carousel-item img {
+
+    height: 100vh;
+    object-fit: cover;
 }
