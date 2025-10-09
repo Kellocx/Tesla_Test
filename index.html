@@ -67,7 +67,7 @@
 <!--herosection con carosello-->
 <section id="hero" class="mt-3 pt-4">
 
-    <div id="carouselTesla" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselTesla" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
 
         <div class="carousel-inner">
 
@@ -113,14 +113,164 @@
                 </div>
             </div>
 
-
         </div>
     </div>
 
 
 </section>
 
-<!--4 card-->
+<!--4 CARD SECTION-->
+<section class="models-carousel py-5">
+    <div class="container-fluid px-5">
+        <div id="carouselModels" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <!--Prime 2 card-->
+                <div class="carousel-item active">
+                    <div class="row g-4">
+
+
+                        <!--MODEL Y-->
+                        <div class="col-md-6">
+                            <div class="card model-card text-white border-0">
+                                <img class="card-img"
+                                    src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-Y-Performance-Desktop-EMEA.png"
+                                    alt="Model Y">
+
+                                <div class="card-img-overlay d-flex flex-column justify-content-between p-4">
+                                    <div>
+                                        <p class="small mb-1">SUV di medie dimensioni</p>
+                                    </div>
+
+                                    <div>
+
+                                        <h3 class="fw-bold mb-3">Model Y</h3>
+                                        <div class="d-flex gap-2">
+                                            <a href="" class="btn btn-primary px-4 py-2">Ordina Ora</a>
+                                            <a href="" class="btn btn-light px-4 py-2">Scopri di più</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <!--MODEL 3-->
+                        <div class="col-md-6">
+                            <div class="card model-card text-white border-0">
+                                <img class="card-img"
+                                    src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-3-Desktop.png"
+                                    alt="Model 3">
+
+                                <div class="card-img-overlay d-flex flex-column justify-content-between p-4">
+                                    <div>
+                                        <p class="small mb-1">Berlina Sportiva</p>
+                                    </div>
+
+                                    <div>
+
+                                        <h3 class="fw-bold mb-3">Model 3</h3>
+                                        <div class="d-flex gap-2">
+                                            <a href="" class="btn btn-primary px-4 py-2">Ordina Ora</a>
+                                            <a href="" class="btn btn-light px-4 py-2">Scopri di più</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Seconde 2 card-->
+                <div class="carousel-item">
+                    <div class="row g-4">
+
+
+
+                        <!--MODEL S-->
+                        <div class="col-md-6">
+                            <div class="card model-card text-white border-0">
+                                <img class="card-img"
+                                    src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-S-Desktop.png"
+                                    alt="Model S">
+
+                                <div class="card-img-overlay d-flex flex-column justify-content-between p-4">
+                                    <div>
+                                        <p class="small mb-1">Berlina di Lusso</p>
+                                    </div>
+
+                                    <div>
+
+                                        <h3 class="fw-bold mb-3">Model S</h3>
+                                        <p class="small mb-1">Disponibile con ricariche Supercharger illimitate gratuite
+                                            e Premium Connectivity</p>
+                                        <div class="d-flex gap-2">
+                                            <a href="" class="btn btn-primary px-4 py-2">Ordina Ora</a>
+                                            <a href="" class="btn btn-light px-4 py-2">Scopri di più</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                        <!--MODEL X-->
+                        <div class="col-md-6">
+                            <div class="card model-card text-white border-0">
+                                <img class="card-img"
+                                    src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Card-Model-X-Desktop.png"
+                                    alt="Model X">
+
+                                <div class="card-img-overlay d-flex flex-column justify-content-between p-4">
+                                    <div>
+                                        <p class="small mb-1">SUV di Lusso</p>
+                                    </div>
+
+                                    <div>
+
+                                        <h3 class="fw-bold mb-3">Model X</h3>
+                                        <p class="small mb-1">Disponibile con ricariche Supercharger illimitate gratuite
+                                            e Premium Connectivity</p>
+                                        <div class="d-flex gap-2">
+                                            <a href="" class="btn btn-primary px-4 py-2">Ordina Ora</a>
+                                            <a href="" class="btn btn-light px-4 py-2">Scopri di più</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+                <!--Indicatori-->
+                <div class="carousel-indicators position-static mt-4">
+
+                    <button  type="button" data-bs-target="#carouselModels" data-bs-slide-to="0" class="active"></button>
+                    <button  type="button" data-bs-target="#carouselModels" data-bs-slide-to="1"></button>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!--Diego-->
+
+
 
 
 <!--section tes and shop-->
@@ -147,6 +297,8 @@
 
      <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   
+ 
 
 </body>
 </html>
